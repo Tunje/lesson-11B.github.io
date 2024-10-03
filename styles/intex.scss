@@ -1,0 +1,49 @@
+@import '_flex';
+@import '_star';
+@import '_main';
+@import '_picgrid';
+@import '_below';
+@import '_awards';
+
+
+body{
+    max-width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &_land{
+        max-height: 3840px;
+        height: 100%;
+    }
+    &_cont{
+        max-height: 2068px;
+        height: 100%;
+    }
+    &_last{
+        max-height: 3000px;
+        height: 100%;
+    }  
+}
+.MaxHW{
+    width: 100%;
+    height: 100%;
+}
+header{
+    max-width: 1110px;
+    width: 100%;
+}
+.box{
+    max-width: 100px;
+    width: 100%;
+}
+.box-2{
+    max-width: 200px;
+    width: 100%;
+}
+.location{
+    border: #ff9898;
+    border-width: 3px;
+    border-style: solid;
+} 
+
+

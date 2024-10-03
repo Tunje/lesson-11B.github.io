@@ -1,0 +1,22 @@
+.awards{
+    max-width: 1110px;
+    min-height: 823px;
+}
+.awards-S{
+    max-width: 1110px;
+    min-height: 101px;
+}
+.awards-BOX{
+    max-width: 1110px;
+    min-height: 412px;
+    border: 0px;
+    border-top: 2px;
+    border-bottom: 2px;
+    border-color: rgb(255, 0, 0);
+    border-style: solid;
+}
+.award-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
