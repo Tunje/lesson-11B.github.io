@@ -8,7 +8,14 @@
     }&_Ai_E{
         align-items: end;
     }
+    &_Ai_E{
+        align-items: end;
+    }
+    &_Ai_SB{
+        align-items: space-between;
+    }
     &_j_SB{
+
         justify-content: space-between;
     }
     &_j_SA{
@@ -33,9 +40,6 @@
     }
     &_colR{
         flex-direction: column-reverse;
-    }
-    &_Ai_E{
-        align-items: end;
     }
     &_wrap{
         flex-wrap: wrap;

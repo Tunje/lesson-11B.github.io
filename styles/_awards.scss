@@ -20,3 +20,12 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
 }
+.awards-filler{
+    min-height: 114px;
+}
+.awards-year{
+    text-align: right;
+}
+.award-text{
+    margin-top: 25px;
+}

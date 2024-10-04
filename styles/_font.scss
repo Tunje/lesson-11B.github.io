@@ -1,0 +1,18 @@
+
+.fonts{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-size: 18px;
+    &_bold{
+        font-weight: bold;
+    }
+    &_Nbold{
+        font-weight: normal;
+    }
+    &_blue{
+        color: $col.color-blue;
+        }
+    &_black{
+        color: $col.color-base;
+        }
+    }
