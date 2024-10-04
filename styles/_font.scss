@@ -6,16 +6,20 @@
     font-family: 'Mulish';
     font-style: normal;
     &_small{    
-    font-size: 18px;
-    line-height: 23px;
+        font-size: 18px;
+        line-height: 23px;
     }
     &_avrage{    
-    font-size: 22px;
-    line-height: 28px;
+        font-size: 22px;
+        line-height: 28px;
     }
     &_big{    
-    font-size: 40px;
-    line-height: 60px;
+        font-size: 40px;
+        line-height: 60px;
+    }
+    &_swift{
+        font-size: 28px;
+        line-height: 38px;
     }
     &_bold{
         font-weight: bold;
@@ -25,18 +29,24 @@
     }
     &_blue{
         color: col.$color-blue;
-        }
+    }
     &_black{
         color: col.$color-base;
-        }
+    }
     &_gray{
         color: col.$color-trans;
-        }
+    }
     &_it{
         font-style: italic;
+    }
+    &_trans{
+    mix-blend-mode: normal;
+    opacity: 0.6;
     }
     }
 .deco{
         text-decoration: none;
     }
+
+
 
