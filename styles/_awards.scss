@@ -11,10 +11,12 @@
     min-height: 412px;
     border: 0px;
     border-top: 2px;
-    border-bottom: 2px;
-    border-color: rgb(255, 0, 0);
+    border-color: #D8D8D8;
     border-style: solid;
-}
+    &_Bot{
+        border-bottom: 2px;
+    }
+    }
 .award-container{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -28,4 +30,13 @@
 }
 .award-text{
     margin-top: 25px;
+}
+.awards-subtext{
+    max-width: 245px;
+}
+.awards-marg{
+    margin-left: 30px;
+}
+.awards-NLmarg{
+    margin-left: -25;
 }

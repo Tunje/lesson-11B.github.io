@@ -32,6 +32,9 @@ body{
 .marg{
     margin-top: 0px;
 }
+.marg2{
+    margin-top: 10px;
+}
 header{
     max-width: 1110px;
     width: 100%;
@@ -61,4 +64,9 @@ header{
 .socials{
     max-width: 95px;
     max-height: 15px;
+}
+.location{
+    border: #c37272;
+    border-width: 3px;
+    border-style: solid;
 }
