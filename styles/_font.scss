@@ -1,8 +1,22 @@
+@use '_col';
+
+
 
 .fonts{
     font-family: 'Mulish';
     font-style: normal;
+    &_small{    
     font-size: 18px;
+    line-height: 23px;
+    }
+    &_avrage{    
+    font-size: 22px;
+    line-height: 28px;
+    }
+    &_big{    
+    font-size: 40px;
+    line-height: 60px;
+    }
     &_bold{
         font-weight: bold;
     }
@@ -10,9 +24,19 @@
         font-weight: normal;
     }
     &_blue{
-        color: $col.color-blue;
+        color: col.$color-blue;
         }
     &_black{
-        color: $col.color-base;
+        color: col.$color-base;
         }
+    &_gray{
+        color: col.$color-trans;
+        }
+    &_it{
+        font-style: italic;
     }
+    }
+.deco{
+        text-decoration: none;
+    }
+

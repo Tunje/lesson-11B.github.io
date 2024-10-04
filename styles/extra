@@ -1,0 +1,6 @@
+
+.location{
+    border: #c37272;
+    border-width: 3px;
+    border-style: solid;
+}
