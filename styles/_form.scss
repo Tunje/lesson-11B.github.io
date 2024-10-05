@@ -1,0 +1,20 @@
+@use '_col';
+
+
+.form-button{
+    max-width: 125px;
+    min-height: 50px;
+    border: none;
+    background-color: col.$color-blue;
+    color: col.$color-hide;
+    &:hover{
+    background-color: #272975;
+    }
+}
+.form-size{
+    max-width: 475px;
+    min-height: 37px;
+    border: #D8D8D8;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+}
