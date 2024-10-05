@@ -21,6 +21,10 @@
         font-size: 22px;
         line-height: 28px;
         }
+    &_more{
+        font-size: 40px;
+        line-height: 55px;
+        }
     &_big{    
         font-size: 40px;
         line-height: 60px;
@@ -47,15 +51,24 @@
     &_it{
         font-style: italic;
         }
+    &_shade{
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
     &_trans{
         mix-blend-mode: normal;
         opacity: 0.6;
         }
+    &_shift{
+        mix-blend-mode: normal;
+    opacity: 0.5;
+    }
+    &_inv{
+        mix-blend-mode: normal;
+        opacity: 0.1;
+    }
     }
 .deco{
     text-decoration: none;
     }
-
-
-
 

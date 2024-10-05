@@ -6,6 +6,8 @@
 @import '_picgrid';
 @import '_below';
 @import '_awards';
+@import '_Pjstart';
+@import '_pjend';
 
 body{
     max-width:100vw;
@@ -20,7 +22,7 @@ body{
         max-height: 2068px;
         height: 100%;
     }
-    &_last{
+    &_Pj{
         max-height: 3000px;
         height: 100%;
     }  
@@ -64,9 +66,4 @@ header{
 .socials{
     max-width: 95px;
     max-height: 15px;
-}
-.location{
-    border: #c37272;
-    border-width: 3px;
-    border-style: solid;
 }

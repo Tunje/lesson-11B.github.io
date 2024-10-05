@@ -1,0 +1,47 @@
+@use '_col';
+
+
+.Pj-top{
+    min-height: 100px;
+}
+.Pj-difference{
+    min-height: 381px;
+    &_ful{
+        min-width: 1110px;
+        }
+    &_lite{
+        max-width: 635px;
+        }
+}
+.pj-title{
+    max-width: 495px;
+    min-height: 130px;
+}
+.pj-t-text{
+    max-width: 635px;
+    min-height: 222px;
+}
+.pj-list{
+    max-width: 343px;
+    min-height: 335px;
+}
+.pj-list-itm{
+    min-height: 42px;
+    &_full{
+        max-width: 343px;
+    }
+    &_title{
+        min-width: 118px;
+    }
+    &_text{
+        min-width: 220px;
+    }
+}
+.pj-pic{
+    min-height: 660px;
+}
+.pj-line{
+    border: #D8D8D8;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+}
